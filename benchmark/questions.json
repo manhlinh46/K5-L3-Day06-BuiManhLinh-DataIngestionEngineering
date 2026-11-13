@@ -1,0 +1,196 @@
+{
+    "questions": [
+        {
+            "id": "Q01",
+            "split": "dev",
+            "question": "What are the five main components of an information system?",
+            "expected_answer": "The five main components are hardware, software, data, people, and processes.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 27,
+            "evidence_quote": "hardware, software, data, people, and processes"
+        },
+        {
+            "id": "Q02",
+            "split": "dev",
+            "question": "What is the main purpose of an information system in an organization?",
+            "expected_answer": "It collects, processes, stores, and disseminates data and information to support organizational goals.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 10,
+            "evidence_quote": "collect, process, store, and disseminate information"
+        },
+        {
+            "id": "Q03",
+            "split": "dev",
+            "question": "Which three types of enterprise information systems are mentioned in the textbook?",
+            "expected_answer": "Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), and Supply Chain Management (SCM).",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 12,
+            "evidence_quote": "enterprise resource planning (ERP), customer relationship management (CRM), and supply chain management (SCM)"
+        },
+        {
+            "id": "Q04",
+            "split": "test",
+            "question": "How do information systems support logistics and supply chain operations?",
+            "expected_answer": "They help manage inventory, track shipments, and optimize transportation routes, improving visibility, cost efficiency, and customer satisfaction.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 11,
+            "evidence_quote": "manage inventory, track shipments, and optimize transportation routes"
+        },
+        {
+            "id": "Q05",
+            "split": "dev",
+            "question": "When a business faces a complex problem without a clear answer, what type of information system can help decision-makers?",
+            "expected_answer": "A Decision Support System (DSS) can provide relevant data and analysis tools to support complex decision-making.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 29,
+            "evidence_quote": "solve a complex business problem by providing relevant data and analysis tools",
+            "filter": {
+                "category": "information_systems"
+            }
+        },
+        {
+            "id": "Q06",
+            "split": "dev",
+            "question": "What distinguishes quantitative data from qualitative data?",
+            "expected_answer": "Quantitative data is numerical and can be measured or counted, while qualitative data is descriptive and captures meaning, opinions, or experiences.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 81,
+            "evidence_quote": "Quantitative data is numerical in nature and can be measured or counted"
+        },
+        {
+            "id": "Q07",
+            "split": "dev",
+            "question": "A company wants to analyze customer feedback comments and interview transcripts. Are these examples of quantitative or qualitative data, and why?",
+            "expected_answer": "They are qualitative data because they are descriptive and capture opinions, experiences, and meaning rather than numerical measurements.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 81,
+            "evidence_quote": "customer feedback comments, interview transcripts, emails"
+        },
+        {
+            "id": "Q08",
+            "split": "test",
+            "question": "Why can unstructured data be more challenging for information systems to manage?",
+            "expected_answer": "Because it does not conform to a fixed schema. It can include documents, images, videos, audio recordings, and web content.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 82,
+            "evidence_quote": "does not conform to a fixed schema"
+        },
+        {
+            "id": "Q09",
+            "split": "dev",
+            "question": "How does semi-structured data differ from structured data?",
+            "expected_answer": "Structured data follows a predefined schema or data model, while semi-structured data has some structure but does not fully conform to a predefined schema.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 83,
+            "evidence_quote": "some structure but is not fully organized"
+        },
+        {
+            "id": "Q10",
+            "split": "dev",
+            "question": "What is the role of a Database Management System (DBMS)?",
+            "expected_answer": "A DBMS allows users to interact with a database, perform data operations, and extract information. It also manages security and data integrity.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 89,
+            "evidence_quote": "perform operations such as adding, deleting, or modifying data",
+            "filter": {
+                "category": "data_management"
+            }
+        },
+        {
+            "id": "Q11",
+            "split": "dev",
+            "question": "How is data organized in a relational database?",
+            "expected_answer": "Data is stored in tables consisting of columns and rows. Keys are used to establish relationships between tables.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 89,
+            "evidence_quote": "data is stored in tables"
+        },
+        {
+            "id": "Q12",
+            "split": "dev",
+            "question": "What makes a non-relational database more flexible than a relational database?",
+            "expected_answer": "A non-relational database stores data in non-tabular formats and does not require a rigid schema, making it more flexible and scalable.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 89,
+            "evidence_quote": "they do not require a rigid schema"
+        },
+        {
+            "id": "Q13",
+            "split": "dev",
+            "question": "What is a data warehouse used for in business?",
+            "expected_answer": "It is a centralized repository of integrated data from different sources, organized for business intelligence and analytics.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 89,
+            "evidence_quote": "centralized repositories of integrated data"
+        },
+        {
+            "id": "Q14",
+            "split": "test",
+            "question": "How can an organization discover hidden patterns and relationships in large datasets?",
+            "expected_answer": "It can use data mining, which applies statistical, mathematical, and machine learning techniques to discover patterns, relationships, and trends.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 101,
+            "evidence_quote": "statistical, mathematical, and machine learning techniques",
+            "filter": {
+                "category": "data_management"
+            }
+        },
+        {
+            "id": "Q15",
+            "split": "dev",
+            "question": "What question does descriptive analytics help an organization answer?",
+            "expected_answer": "It helps summarize and explain historical data, particularly what has happened and why.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 101,
+            "evidence_quote": "summarizing and explaining historical data"
+        },
+        {
+            "id": "Q16",
+            "split": "dev",
+            "question": "What are the three objectives of the CIA Triad in cybersecurity?",
+            "expected_answer": "Confidentiality protects sensitive data, Integrity ensures information has not been tampered with, and Availability ensures authorized users can access information.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 154,
+            "evidence_quote": "Confidentiality, Integrity, and Availability"
+        },
+        {
+            "id": "Q17",
+            "split": "test",
+            "question": "What types of activities are included under cybercrime according to the textbook?",
+            "expected_answer": "Cybercrime includes criminal activities conducted via the internet, such as identity theft, fraud, and hacking for intellectual property.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 155,
+            "evidence_quote": "Identity Theft and Fraud"
+        },
+        {
+            "id": "Q18",
+            "split": "dev",
+            "question": "How does social engineering manipulate employees, and what is phishing?",
+            "expected_answer": "Social engineering psychologically manipulates employees into revealing credentials. Phishing is a technique using deceptive emails that appear to come from trusted sources.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 156,
+            "evidence_quote": "deceptive emails that appear to be from a trusted source"
+        },
+        {
+            "id": "Q19",
+            "split": "test",
+            "question": "Why does the textbook recommend regularly backing up data?",
+            "expected_answer": "Regular backups help prevent data loss if an individual or organization becomes a victim of a cyberattack.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 157,
+            "evidence_quote": "Backup your data regularly"
+        },
+        {
+            "id": "Q20",
+            "split": "dev",
+            "question": "What is an Information Security Management System (ISMS), and how does it help an organization?",
+            "expected_answer": "An ISMS is a structured framework of policies and controls for systematic risk management. It integrates security into organizational culture and processes.",
+            "gold_source_id": "IS_MANAGEMENT_001",
+            "gold_page": 158,
+            "evidence_quote": "structured framework of policies and controls",
+            "filter": {
+                "category": "cybersecurity"
+            }
+        }
+    ]
+}

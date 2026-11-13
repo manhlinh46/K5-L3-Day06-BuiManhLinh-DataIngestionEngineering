@@ -1,0 +1,50 @@
+{
+  "A": {
+    "dev": {
+      "total_questions": 15,
+      "hit_at_1_count": 4,
+      "hit_at_1": 0.26666666666666666,
+      "evidence_hit_at_3_count": 9,
+      "evidence_hit_at_3": 0.6
+    },
+    "test": {
+      "total_questions": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1": 0.6,
+      "evidence_hit_at_3_count": 4,
+      "evidence_hit_at_3": 0.8
+    }
+  },
+  "B": {
+    "dev": {
+      "total_questions": 15,
+      "hit_at_1_count": 5,
+      "hit_at_1": 0.3333333333333333,
+      "evidence_hit_at_3_count": 9,
+      "evidence_hit_at_3": 0.6
+    },
+    "test": {
+      "total_questions": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1": 0.6,
+      "evidence_hit_at_3_count": 3,
+      "evidence_hit_at_3": 0.6
+    }
+  },
+  "C": {
+    "dev": {
+      "total_questions": 15,
+      "hit_at_1_count": 5,
+      "hit_at_1": 0.3333333333333333,
+      "evidence_hit_at_3_count": 9,
+      "evidence_hit_at_3": 0.6
+    },
+    "test": {
+      "total_questions": 5,
+      "hit_at_1_count": 3,
+      "hit_at_1": 0.6,
+      "evidence_hit_at_3_count": 3,
+      "evidence_hit_at_3": 0.6
+    }
+  }
+}

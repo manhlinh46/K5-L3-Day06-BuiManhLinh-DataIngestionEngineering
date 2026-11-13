@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id,source,page,category",none,sentence-transformers/all-MiniLM-L6-v2 (384d),Fixed-size chunking làm baseline để so sánh,0.2667,0.6000,0.6000,0.8000,200 chunks; no metadata filter
+B,paragraph,500,0,"document_id,source,page,category",none,sentence-transformers/all-MiniLM-L6-v2 (384d),Paragraph chunking có thể giữ ngữ cảnh tốt hơn fixed-size,0.3333,0.6000,0.6000,0.6000,188 chunks; no metadata filter
+C,paragraph,500,0,"document_id,source,page,category",category,sentence-transformers/all-MiniLM-L6-v2 (384d),Metadata filter giúp giới hạn kết quả theo category,0.3333,0.6000,0.6000,0.6000,188 chunks; category filter applied when question provides filter
